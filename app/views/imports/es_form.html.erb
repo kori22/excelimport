@@ -1,0 +1,7 @@
+<h2>Import Products</h2>
+
+<%= form_tag es_execute_imports_path, "data-type" => "json", multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Import" %>
+<% end %>
+
