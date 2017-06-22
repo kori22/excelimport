@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 	  	get	:es_form
 	  	post :es_execute
 	  	get	:es_result
+	  	get	:es_form_simulasi
+	  	post :es_execute_simulasi
 	end
   end
 end
